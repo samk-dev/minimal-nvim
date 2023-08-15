@@ -1,13 +1,9 @@
 return {
-  {
-    {
-      "neovim/nvim-lspconfig",
-      opts = {
-        servers = {
-          dockerls = {},
-          docker_compose_language_service = {},
-        },
-      },
+  "neovim/nvim-lspconfig",
+  opts = {
+    servers = {
+      dockerls = {},
+      docker_compose_language_service = {},
     },
   },
 }
